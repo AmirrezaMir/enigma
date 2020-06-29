@@ -1,6 +1,6 @@
 import pickle
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
+alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz'
 
 File = open('./enigma_state.enigma', 'rb')
 rotor1, rotor2, rotor3 = pickle.load(File)
